@@ -1,6 +1,6 @@
 {
 	"name": "@tunnel/dayjs",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "module",
 	"exports": {
 		".": "./src/index.ts"
@@ -9,10 +9,10 @@
 		"build": "ts-node ./scripts/build.ts"
 	},
 	"dependencies": {
-		"dayjs": "1.11.8"
+		"dayjs": "^1.11.8"
 	},
 	"devDependencies": {
-		"lionconfig": "3.0.1",
-		"typescript": "5.1.6"
+		"lionconfig": "^3.0.1",
+		"typescript": "^5.1.6"
 	}
 }
