@@ -16,7 +16,7 @@ const locale = {
 		// relative time format strings, keep %s %d as the same
 		future: 'in %s', // e.g. in 2 hours, %s been replaced with 2hours
 		past: '%s ago',
-		s: '%ds',
+		s: 'now',
 		m: '1m',
 		mm: '%dm',
 		h: '1h',
