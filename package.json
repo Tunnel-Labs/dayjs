@@ -6,12 +6,13 @@
 		".": "./src/index.ts"
 	},
 	"scripts": {
-		"build": "ts-node ./scripts/build.ts"
+		"build": "tun ./scripts/build.ts"
 	},
 	"dependencies": {
 		"dayjs": "^1.11.8"
 	},
 	"devDependencies": {
+		"@tunnel/tun": "0.2.3",
 		"lionconfig": "^3.0.1",
 		"typescript": "^5.1.6"
 	}
